@@ -6,10 +6,8 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.view.View
 import android.widget.AdapterView
-import android.widget.ArrayAdapter
 import android.widget.RadioButton
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.Observer
@@ -53,7 +51,7 @@ class AddEmployee : AppCompatActivity() {
             lockAllFields()
         }
         addProject.setOnClickListener {
-            var intent = Intent(this, ProjectActivity::class.java)
+            var intent = Intent(this, ProjectFormActivity::class.java)
             startActivity(intent)
         }
         buttonEdit.setOnClickListener {

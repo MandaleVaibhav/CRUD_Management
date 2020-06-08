@@ -25,7 +25,7 @@ import com.techm.crud_management.utils.*
 import com.techm.crud_management.viewmodel.ViewModelEmployeeInformation
 import kotlinx.android.synthetic.main.activity_main.*
 
-class EmployeeFeatureActivity : AppCompatActivity(), View.OnClickListener,
+class EmployeeLandingActivity : AppCompatActivity(), View.OnClickListener,
     AdapterEmployeeInformation.ItemClickListener {
     private lateinit var mDataViewModel: ViewModelEmployeeInformation
     private lateinit var mAdapter: AdapterEmployeeInformation
